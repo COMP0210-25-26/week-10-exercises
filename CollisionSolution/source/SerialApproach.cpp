@@ -26,12 +26,8 @@ int main()
 #endif
 
     Body b1, b2;
-    b1.position = {30, 25, 0};
-    b1.velocity = {1, 0, 0};
-    b1.colour = {0, 0, 255};
-    b2.position = {90, 25, 0};
-    b2.velocity = {-2, 0, 0};
-    b2.colour = {255, 0, 0};
+    b1.position = {30, 25, 0}; b1.velocity = {2, 0, 0}; b1.colour = {0, 0, 255};
+    b2.position = {90, 25, 0}; b2.velocity = {-4, 0, 0}; b2.colour = {255, 0, 0};
     vector<Body> bodies = {b1, b2};
 
     bool keep_going = true;

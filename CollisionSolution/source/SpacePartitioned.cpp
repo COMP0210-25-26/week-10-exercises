@@ -47,8 +47,8 @@ int main()
         printf("Expected maximum size of buffer is %d\n", recv_buffer_size);
     Body *recv_buffer = new Body[recv_buffer_size]; // expected maximum size of receive buffer
 
-    RandomSetup(X_OFFSET, HALF_WIDTH, local_bodies);
-    // TrivialSetup(X_OFFSET, HALF_WIDTH, local_bodies);
+    // RandomSetup(X_OFFSET, HALF_WIDTH, local_bodies);
+    TrivialSetup(X_OFFSET, HALF_WIDTH, local_bodies);
 
     bool keep_going = true;
     double t = 0;
